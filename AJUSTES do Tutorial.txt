@@ -1,0 +1,41 @@
+ETAPA 0:
+   - Instalacoes:
+      Node
+      SQLite3
+      DBBrowser
+      Postman
+   - Teste de Instalacao 1
+   - Teste de Instalacao 2
+   - Teste de Instalacao 3
+   ==> Rodamos isso com eles assumindo que tenham feito instalacoes e até talvez rodado antes. Se rodaram antes, otimo, a gente vai conseguir fazer isso rapidinho. 
+   Podemos usar algumas dinamicas, exemplo, pedir para alunos pilotarem
+
+OBs e meu racional:
+   1 - Tirei ao maximo os complicometros e deixei apenas o necessario para testar o node, o SQLite e o express. O que mais se usa no inicio é o GET entao nao vejo muito porque ficar mostrando POST, DELETE, etc.. isso acho que fica como extra lá na frente da hora do CRUD, aqui entre nos,talvez até deixar isso em AUTO-Estudo. POST é no maximo o que se usa quando se quer fazer upload/download e nos CRUDs que faremos nesse modulo dificilmente teremos isso.
+   2 - Tirei JSON, tem quem sabe e muitos que nao e ele é uma cria da orientacao objeto que acho melhor nao assustar agora, ainda mais só em teste.
+   3 - Fiz a saida dos dados lidos bem "Raw" mesmo, pois o objetivo é testar a leitura e nao formatacao.
+   4 - Acho que por um teste em cada porta diferente pode ser legal para eles fazerem os testes em paralelo e compartilharem na instrucao
+   5 - Eu tive um problema aqui que vou apelar pra victor ou mauricio. Nao sei se fiz algo errado ou isso era pra ser assim mesmo mas o SQLite só funciona se rodar a istalacao no diretorio onde esta rodando o servidor (o arquivo app.js)
+
+
+ETAPA 1: (ainda na instrucao 1, apesar de que se der MUITO xabu de encrenca de instalacoes eu iria sugerir que fechemos a 0 com todos na sexta (1a instrucao), o resto é bonus. Ai cada um ver com suas turmas
+   Fiz uma parada para criar um servidor de paginas estaticas, dessa forma, nao tem mais esse lance de ter que "rodar no browser".. tudo ficaria no servidor.  Nessa etapa eles podem fazer qq. coisa em cima do HTML, criar novas paginas, etc.
+
+ETAPA 2: Continuando paginas mas incluindo CSS
+
+ETAPA 3: Consegui dois scripts simples para acesso ao banco sem JSON e nem nada complicado, só pegando os dados e cuspindo o resultado no Browser. O primeiro script só pega e joga um valor determinado e o segundo já fazendo um FORM e pega o dado de acordo com o parametro no forms.
+   Nessa etapa também, já dá pra incluir o GET através dos parâmetros da query
+
+GENTE, agora a antiga fase 4 meio que morre pois era só pra mostrar GET, POST, etc. COmo disse, podemos deixar isso como auto estudo pois dá pra fazer quase tudo com GET no nivel deles.
+
+A Fase 5 e 6 é CRUD com e sem FronEnd mas eu nao consegui ainda "encolher" isso ai mas na minha visao, tá MUITO complexo, pra trabalhar com esse CRUD eles vao ter que entender de AJAX, JQuery, JSON alem do proprio JavaScript, quando nem um query via Forms eles ainda sabem, e muito menos JavaScript.  
+Na verdade, o CRUD nem está tao complicado mas o JavaScript pra renderizar precisa ser minimizado.
+
+Eu estava querendo ai talvez recuperar a parte da antiga fase 3 que trazia os dados via JSON e começar por ai, 
+
+Outra coisa, temos que ver ONDE vamos encaixar o JavaScript "puro" ou seja, programacao mesmo, logica e tal... que está no LBL.
+
+
+
+
+
